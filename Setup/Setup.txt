@@ -1,0 +1,11 @@
+
+// DynamoDb
+
+1. Get yourself an Amazon AWS acccount
+2. Install the AWS CLI locally
+3. Configure the CLI with your credentials
+4. read -https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html. One trick is on Windows, use and elevated commmand prompt and run in a folder that has write permissions (not program files). Also, the command prompt window did not return after running, so I had to open another window.
+5. You need to also have boto3 installed.  Run  $ pip install boto3 from the python cmd line
+6. Create the table, add data.  (You may have to change the file to add two entries.). Then run a check to see if it exists.
+
+
